@@ -64,7 +64,10 @@ padding-top:20px;
 
 
 /* Top of home page */
-
+.disclaimer{
+    width:25%;
+    font-size:12px;
+}
 
 
 /* About section */
@@ -788,7 +791,11 @@ img.hover-shadow {
 /*Internet Explorer adjustments*/
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    
+    .disclaimer{
+        font-size:12px;
+       width:25%;
+        padding-top:20px;
+    }
     .mypicbox{
         width:1300px;
         
@@ -850,7 +857,7 @@ img.hover-shadow {
     }
     #logo{
         width:380px;
-        height:260px;
+        height:230px;
         margin-left:50px;
     }
     .about_me_title{
