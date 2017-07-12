@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link  rel="stylesheet" href="../css/mystyle.css">
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+ <script src= ../js/javascript.js></script>
+
+    <meta charset="utf-8">
+
+   
+    <title>My Portfolio Site</title>
+</head>
+
+<body>
+
+
+<img src= "../images/My_logo.png" alt ="logo" id= "logo">
+    <br>
+    <br>
+    <br>
+    
+   
+    <div class="container">
+        
+        <div class="menu">
+            <div class="nav">
+                <ul>
+                    <li class="home"><a href="index.html">Home</a></li>
+                    <li class="blogs"><a href="blogs.html">Blogs</a></li>
+                    <li class="contact"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+         <div class="about">
+                <h2 class="about_me_title">About Me:</h2></div>
+            <br>
+           <div class="mypicbox"><img src="../images/professional_pic.jpg" class="mypic" alt=professional>
+                <p>Hello, Welcome to my  portfolio website which I hand coded myself. My name is Tony Smith and I am an Interactive Multimedia Major with a minor in Fine art. My aspiration is to become a Videogame Artist (primarily one who focuses on the landscapes and architecture within videogames). My interests include drawing, 3D modeling, game design, and videogames themselves. On this website you can see some of the work I have done through out my academic career, and during my spare time.
+                </p>
+            </div>
+           <br>
+        <br>
+      <br>
+      <br>
+        <h2 class= "video_title">Videos:</h2>
+        
+        <div class= "video_text"><p>Here you can watch some of the videos I have created including a music video, an  alien invasion scene, a documentary on supernatural events, and footage of gameplay for a game I designed.</p></div>
+        <br>
+       
+     <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <span id="slider-image-4"></span> 
+        <div class="image-holder">
+           
+            <!--Animation I video!-->
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/S_gQgNARons" class="slider-image" 
+             allowfullscreen></iframe>
+           
+            <!-- Videogame Music Video!-->
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9tvIgTtLfHE" class= "slider-image"  allowfullscreen></iframe>
+           
+            <!--Gameplay video!-->
+           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/s4UPBA7nR5Y"  class="slider-image"  allowfullscreen></iframe>
+            
+            <!--Supernatural Events Video!-->
+           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jWuNgVkPOiA" class= "slider-image"  allowfullscreen></iframe>
+            
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+            <a href="#slider-image-4" class="slider-change"></a>
+        </div>
+    </div>
+        <br>
+        <br>
+            <div class="mywork">
+                <h2 class="h2a">Drawings/Models:</h2> </div>
+       
+        <br>
+        
+     <div class="row">
+<div class="column">
+    <img src="../images/skyscraper_work.jpg" onclick="openModal();currentSlide(1)" alt="building" class="hover-shadow" id="building">
+   
+    <img src="../images/sunny_day.png" onclick="openModal();currentSlide(2)" alt="sunnyday" class="hover-shadow" id="house">
+</div>
+<div class="column">
+    <img src="../images/Lamp.jpg" onclick="openModal();currentSlide(3)" alt="lamp" class="hover-shadow" id="lamp">
+
+    <img src="../images/Final_shot_1.png" onclick="openModal();currentSlide(4)" alt="final" class="hover-shadow" id="final">
+</div>
+<div class="column">
+    <img src="../images/my_room.jpg" onclick="openModal();currentSlide(5)" alt="myroom" class="hover-shadow" id="my_room">
+
+    <img src="../images/shoes_still_life.jpg" onclick="openModal();currentSlide(6)" alt="shoes" class="hover-shadow" id="shoes">
+</div>
+<div class="column">
+    <img src="../images/self_portrait.jpg" onclick="openModal();currentSlide(7)" alt="self_portrait" class="hover-shadow" id="me">
+
+    <img src="../images/apple.jpg" onclick="openModal();currentSlide(8)" alt="apple" class="hover-shadow" id="apple">
+</div>
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+<div class="mySlides">
+
+    <img src="../images/skyscraper_work.jpg" alt="building" class="big">
+</div>
+
+<div class="mySlides">
+
+    <img src="../images/sunny_day.png" alt="sunny_day" class="big">
+</div>
+
+<div class="mySlides">
+
+    <img src="../images/Lamp.jpg" alt="lamp" class="big">
+</div>
+
+<div class="mySlides">
+
+    <img src="../images/Final_shot_1.png" alt="room" class="big">
+</div>
+
+<div class="mySlides">
+
+    <img src="../images/my_room.jpg" alt="myroom" class="big">
+</div>
+
+<div class="mySlides">
+
+    <img src="../images/shoes_still_life.jpg" alt="shoes" class="big">
+</div>
+
+<div class="mySlides">
+
+    <img src="../images/self_portrait.jpg" alt="self_portrait" class="big">
+</div>
+
+<div class="mySlides">
+
+    <img src="../images/apple.jpg" alt="apple" class="big">
+</div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+   
+</div>
+ </div>      
+ </div>
+</div>
+
+</body>
+
+</html>
