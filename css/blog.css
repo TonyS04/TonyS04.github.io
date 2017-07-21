@@ -1,0 +1,462 @@
+.version.blog /* version checker */
+{
+	color: #0000FE;
+	background-color: #0722F8;
+}
+
+.html
+{
+	background: #FFFFFF url("../images/web_background.jpg") no-repeat center center scroll;
+	background-size: cover;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1060px;
+	min-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -7px;
+}
+
+#u1153
+{
+	z-index: 2;
+	width: 443px;
+	margin-left: 263px;
+}
+
+#pu3286
+{
+	width: 0.01px;
+	margin-left: -93px;
+	margin-top: 27px;
+}
+
+#u3286
+{
+	z-index: 14;
+	width: 1246px;
+	margin-bottom: -1px;
+	margin-right: -10000px;
+}
+
+._u3286.f3s_mid
+{
+	width: 1246px;
+	height: 37px;
+}
+
+._u3286.f3s_top,._u3286.f3s_bot
+{
+	width: 1246px;
+	height: 12px;
+}
+
+#menuu3287
+{
+	z-index: 15;
+	width: 1245px;
+	margin-right: -10000px;
+	margin-top: 5px;
+}
+
+#u3302
+{
+	width: 309px;
+	min-height: 54px;
+	margin-right: -10000px;
+}
+
+#u3303
+{
+	z-index: 18;
+	width: 309px;
+	height: 54px;
+	margin-right: -10000px;
+}
+
+#pu3303:hover ._u3303.f3s_top
+{
+	width: 309px;
+	height: 7px;
+}
+
+#pu3303:active ._u3303.f3s_top
+{
+	width: 309px;
+	height: 7px;
+}
+
+#pu3303:hover ._u3303.f3s_mid
+{
+	width: 309px;
+	height: 40px;
+}
+
+#pu3303:active ._u3303.f3s_mid
+{
+	width: 309px;
+	height: 40px;
+}
+
+#pu3303.MuseMenuActive ._u3303.f3s_mid
+{
+	width: 309px;
+	height: 40px;
+}
+
+#pu3303.MuseMenuActive ._u3303.f3s_top,#pu3303:hover ._u3303.f3s_bot
+{
+	width: 309px;
+	height: 7px;
+}
+
+#pu3303:active ._u3303.f3s_bot
+{
+	width: 309px;
+	height: 7px;
+}
+
+#pu3303.MuseMenuActive ._u3303.f3s_bot
+{
+	width: 309px;
+	height: 7px;
+}
+
+#u3305-4_clip
+{
+	width: 51px;
+	height: 22px;
+}
+
+#u3305-4
+{
+	margin-right: -10000px;
+	top: 16px;
+	left: 129px;
+}
+
+#pu3303:hover #u3305-4,#pu3303:active #u3305-4,#pu3303.MuseMenuActive #u3305-4
+{
+	margin-right: -10000px;
+	top: 9px;
+	left: 129px;
+}
+
+#pu3303:hover #u3303,#pu3303:active #u3303,#pu3303.MuseMenuActive #u3303
+{
+	width: 309px;
+	height: 54px;
+	margin-right: -10000px;
+	margin-top: 0px;
+	left: 0px;
+	margin-left: 0px;
+}
+
+#u3309
+{
+	width: 314px;
+	min-height: 54px;
+	margin-right: -10000px;
+	left: 311px;
+}
+
+#u3310
+{
+	z-index: 28;
+	width: 314px;
+	height: 54px;
+	margin-right: -10000px;
+}
+
+#pu3310:hover ._u3310.f3s_top
+{
+	width: 314px;
+	height: 7px;
+}
+
+#pu3310:active ._u3310.f3s_top
+{
+	width: 314px;
+	height: 7px;
+}
+
+#pu3310:hover ._u3310.f3s_mid
+{
+	width: 314px;
+	height: 40px;
+}
+
+#pu3310:active ._u3310.f3s_mid
+{
+	width: 314px;
+	height: 40px;
+}
+
+#pu3310.MuseMenuActive ._u3310.f3s_mid
+{
+	width: 314px;
+	height: 40px;
+}
+
+#pu3310.MuseMenuActive ._u3310.f3s_top,#pu3310:hover ._u3310.f3s_bot
+{
+	width: 314px;
+	height: 7px;
+}
+
+#pu3310:active ._u3310.f3s_bot
+{
+	width: 314px;
+	height: 7px;
+}
+
+#pu3310.MuseMenuActive ._u3310.f3s_bot
+{
+	width: 314px;
+	height: 7px;
+}
+
+#u3313-4_clip
+{
+	width: 57px;
+	height: 22px;
+}
+
+#pu3310:hover #u3310,#pu3310:active #u3310,#pu3310.MuseMenuActive #u3310
+{
+	width: 314px;
+	height: 54px;
+	margin-right: -10000px;
+	margin-top: 0px;
+	left: 0px;
+	margin-left: 0px;
+}
+
+#u3295
+{
+	width: 294px;
+	min-height: 54px;
+	margin-right: -10000px;
+	left: 627px;
+}
+
+#u3296
+{
+	z-index: 38;
+	width: 294px;
+	height: 54px;
+	margin-right: -10000px;
+}
+
+#pu3296:hover ._u3296.f3s_top
+{
+	width: 294px;
+	height: 7px;
+}
+
+#pu3296:active ._u3296.f3s_top
+{
+	width: 294px;
+	height: 7px;
+}
+
+#pu3296:hover ._u3296.f3s_mid
+{
+	width: 294px;
+	height: 40px;
+}
+
+#pu3296:active ._u3296.f3s_mid
+{
+	width: 294px;
+	height: 40px;
+}
+
+#pu3296.MuseMenuActive ._u3296.f3s_mid
+{
+	width: 294px;
+	height: 40px;
+}
+
+#pu3296.MuseMenuActive ._u3296.f3s_top,#pu3296:hover ._u3296.f3s_bot
+{
+	width: 294px;
+	height: 7px;
+}
+
+#pu3296:active ._u3296.f3s_bot
+{
+	width: 294px;
+	height: 7px;
+}
+
+#pu3296.MuseMenuActive ._u3296.f3s_bot
+{
+	width: 294px;
+	height: 7px;
+}
+
+#u3297-4_clip
+{
+	width: 37px;
+	height: 22px;
+}
+
+#pu3296:hover #u3296,#pu3296:active #u3296,#pu3296.MuseMenuActive #u3296
+{
+	width: 294px;
+	height: 54px;
+	margin-right: -10000px;
+	margin-top: 0px;
+	left: 0px;
+	margin-left: 0px;
+}
+
+#u3288
+{
+	width: 322px;
+	min-height: 54px;
+	margin-right: -10000px;
+	left: 923px;
+}
+
+#pu3303,#pu3310,#pu3296,#pu3291
+{
+	width: 0.01px;
+}
+
+#u3291
+{
+	z-index: 48;
+	width: 322px;
+	height: 54px;
+	margin-right: -10000px;
+}
+
+#pu3291:hover ._u3291.f3s_top
+{
+	width: 322px;
+	height: 7px;
+}
+
+#pu3291:active ._u3291.f3s_top
+{
+	width: 322px;
+	height: 7px;
+}
+
+#pu3291:hover ._u3291.f3s_mid
+{
+	width: 322px;
+	height: 40px;
+}
+
+#pu3291:active ._u3291.f3s_mid
+{
+	width: 322px;
+	height: 40px;
+}
+
+#pu3291.MuseMenuActive ._u3291.f3s_mid
+{
+	width: 322px;
+	height: 40px;
+}
+
+#pu3291.MuseMenuActive ._u3291.f3s_top,#pu3291:hover ._u3291.f3s_bot
+{
+	width: 322px;
+	height: 7px;
+}
+
+#pu3291:active ._u3291.f3s_bot
+{
+	width: 322px;
+	height: 7px;
+}
+
+#pu3291.MuseMenuActive ._u3291.f3s_bot
+{
+	width: 322px;
+	height: 7px;
+}
+
+#u3293-4_clip
+{
+	width: 65px;
+	height: 22px;
+}
+
+#u3313-4,#u3297-4,#u3293-4
+{
+	margin-right: -10000px;
+	top: 16px;
+	left: 128px;
+}
+
+#pu3310:hover #u3313-4,#pu3310:active #u3313-4,#pu3310.MuseMenuActive #u3313-4,#pu3296:hover #u3297-4,#pu3296:active #u3297-4,#pu3296.MuseMenuActive #u3297-4,#pu3291:hover #u3293-4,#pu3291:active #u3293-4,#pu3291.MuseMenuActive #u3293-4
+{
+	margin-right: -10000px;
+	top: 9px;
+	left: 128px;
+}
+
+#pu3291:hover #u3291,#pu3291:active #u3291,#pu3291.MuseMenuActive #u3291
+{
+	width: 322px;
+	height: 54px;
+	margin-right: -10000px;
+	margin-top: 0px;
+	left: 0px;
+	margin-left: 0px;
+}
+
+#u1214-4
+{
+	z-index: 10;
+	left: -88px;
+	margin-top: 65px;
+}
+
+#pu1201
+{
+	width: 0.01px;
+	margin-left: -100px;
+	margin-top: 13px;
+}
+
+#u1201
+{
+	z-index: 4;
+	width: 604px;
+	margin-right: -10000px;
+}
+
+#u1213-4
+{
+	z-index: 6;
+	width: 593px;
+	min-height: 110px;
+	margin-right: -10000px;
+	margin-top: 38px;
+	left: 622px;
+}
+
+body
+{
+	position: relative;
+	min-width: 1060px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
